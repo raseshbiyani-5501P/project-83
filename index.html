@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+body{
+    background-image: url("bg1.jpg");
+    background-position: center;
+}
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint with touch</title>
+    <link rel="stlyesheet" href="style.css">
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body class="body_background">
+    
+    
+<div align="center">
+    <h1>Paint</h1>
+
+    <canvas id="myCanvas" width="800" height="600">
+    </canvas>
+    <br><br>
+    
+    <label>Color</label>
+
+<span><input type="color" id="color" placeholder="Type your color"></span>
+
+<label>width</label>
+
+<span><input type="number" id="width" placeholder="Enter the width"></span>
+
+<br><br>
+
+<button type="button" id="cleararea" onclick="clrarea();">Clear Canvas</button>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
